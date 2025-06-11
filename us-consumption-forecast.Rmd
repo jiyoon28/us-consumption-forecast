@@ -3,7 +3,7 @@ title:  "US Consumption Forecast"
 author: "Jiyoon Moon"
 date:   "Last compiled on:   `r format(Sys.time(), '%d %B, %Y')`"
 output:
-pdf_document: default
+  pdf_document: default
 abstract: This report analyzes quarterly US consumption data using multiple time series models. Both ARIMA-based and regression-based models are evaluated to understand the drivers of consumption and to forecast its behavior in the near future. External variables such as income, production, and unemployment are explored to improve forecast accuracy.
 
 fontsize: 12pt
@@ -13,7 +13,7 @@ header-includes:
   \usepackage{lmodern}
   \usepackage{lipsum}
   \usepackage{fancyhdr}
-  \pagegitstyle{fancy}
+  \pagestyle{fancy}
   \renewcommand{\headrulewidth}{0pt}
   \fancyhf{}
   \fancyfoot[C]{\twopagenumbers}
